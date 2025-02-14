@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { VocabEntry } from '../data/filters/types';
 import vocabData from '../data/dictionary/vocabulary.json';
 

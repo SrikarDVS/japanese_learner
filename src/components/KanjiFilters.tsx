@@ -1,5 +1,5 @@
 // src/components/KanjiFilters.tsx
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { KanjiEntry } from '../data/filters/types';
 import kanjiData from '../data/dictionary/kanji.json';
 

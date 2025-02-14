@@ -16,7 +16,7 @@ const KanjiModal = ({ kanji, isOpen, onClose }: KanjiModalProps) => {
                 {/* Header */}
                 <div className="flex justify-between items-center p-4 border-b">
                     <h2 className="text-2xl font-bold text-gray-800">Kanji Details</h2>
-                    <button 
+                    <button
                         onClick={onClose}
                         className="text-gray-500 hover:text-gray-700"
                     >
@@ -36,14 +36,14 @@ const KanjiModal = ({ kanji, isOpen, onClose }: KanjiModalProps) => {
                                     <h3 className="font-bold text-gray-700">Meanings</h3>
                                     <p className="text-gray-600">{kanji.meanings.join(', ')}</p>
                                 </div>
-                                
+
                                 <div>
-                                    <h3 className="font-bold text-gray-700">On'yomi Readings</h3>
+                                    <h3 className="font-bold text-gray-700">On&apos;yomi Readings</h3>
                                     <p className="text-blue-600">{kanji.readings.onyomi.join('、 ')}</p>
                                 </div>
-                                
+
                                 <div>
-                                    <h3 className="font-bold text-gray-700">Kun'yomi Readings</h3>
+                                    <h3 className="font-bold text-gray-700">Kun&apos;yomi Readings</h3>
                                     <p className="text-green-600">{kanji.readings.kunyomi.join('、 ')}</p>
                                 </div>
                             </div>
